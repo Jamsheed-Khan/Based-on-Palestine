@@ -16,7 +16,9 @@ body {
 
 .NAvbar {
     position: fixed;
+    z-index: 1;
     width: 100%;
+    height: 11vh;
 }
 
 .NAvbar a {
@@ -34,11 +36,16 @@ body {
     align-items: center;
     text-align: center;
 }
+.home{
 
-.home {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100% !important;
+}
+.home h5,p{  
+    color: white !important;
+    
 }
 
 .img {
@@ -54,6 +61,7 @@ body {
 }
 .card{
     display: flex;
+    background-color: rgb(41, 143, 63);
     margin: 10px;
     justify-content: center;
     align-items: center;
